@@ -1,0 +1,23 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {{>links}}
+    
+</head>
+<body>
+    {{!-- {{>header}} --}}
+    <h1>{{name}}
+    {{temp}}</h1>
+    
+    <form class="tempform" >
+        <input type="text" id="cityname" name="city" placeholder="enter your city name"/>
+        <input id="submit"  type="submit"/>
+    </form> 
+    <h2 id="showtemp"></h2>
+    <script src="js/main.js"></script>
+</body>
+</html>
